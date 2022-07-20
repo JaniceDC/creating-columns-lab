@@ -16,6 +16,31 @@ body, html {
   margin: 10px auto;
 }
 
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.small {
+  width: 30%;
+  height: 30%;
+}
+
+.med { 
+  width: 60%;
+  height: 60%;
+}
+
+.large {
+  width: 90%;
+  height: 90%;
+}
+
+
 h4 {
   width: fit-content;
   display: inline-block;
@@ -46,6 +71,6 @@ img:hover {
   background-color: #dd4444;
 }
 
-/* create a column class! make sure all of the divs within 'container's have a class of 'column' */
+/* create a column class! make sure all of the divs within 'container's have a class of 'column' *
 
 /* create your tile classes! we recommend .small .med .large */
